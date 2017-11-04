@@ -1,0 +1,33 @@
+.rule {
+  font-size: 22px;
+  padding: 20px 40px;
+  border-bottom: 1px solid #ededef;
+  position: relative;
+  cursor: pointer; }
+
+.rule__info {
+  position: relative; }
+
+.rule__info {
+  border-top: 1px solid #ededef;
+  border-bottom: 1px solid #ededef; }
+
+.remove__button {
+  background: #fff;
+  font-size: 22px;
+  position: absolute;
+  height: 70px;
+  width: 66px;
+  right: 0;
+  top: 0;
+  border: none;
+  cursor: pointer; }
+
+.hide__button {
+  background: #fff;
+  font-size: 22px;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  border: none;
+  cursor: pointer; }

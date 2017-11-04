@@ -1,0 +1,18 @@
+@import '../../styles/_variables.scss';
+
+.status-passed {
+  color: $rule_passed;
+}
+
+.status-failed {
+  color: $rule_failed;
+}
+
+.btn__execute {
+  background: $btn_execute;
+}
+
+.status {
+  font-size: $fontDefault + 2;
+  padding: $textIndeed/2 0;
+}

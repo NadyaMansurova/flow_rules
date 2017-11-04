@@ -1,0 +1,12 @@
+.status-passed {
+  color: #4cc188; }
+
+.status-failed {
+  color: #f2626b; }
+
+.btn__execute {
+  background: #d63b6d; }
+
+.status {
+  font-size: 16px;
+  padding: 10px 0; }

@@ -1,0 +1,44 @@
+@import '../../styles/_variables.scss';
+
+.rule {
+  font-size: $fontDefault + 8;
+  padding: $textIndeed 2*$textIndeed;
+  border-bottom: 1px solid $border_color;
+  position: relative;
+  cursor: pointer;
+}
+
+.rule__title {
+
+}
+
+.rule__info {
+  position: relative;
+}
+
+.rule__info {
+  border-top: 1px solid $border_color;
+  border-bottom: 1px solid $border_color;
+}
+
+.remove__button {
+  background: #fff;
+  font-size: $fontDefault + 8;
+  position: absolute;
+  height: 70px;
+  width: 66px;
+  right: 0;
+  top: 0;
+  border: none;
+  cursor: pointer;
+}
+
+.hide__button {
+  background: #fff;
+  font-size: $fontDefault + 8;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  border: none;
+  cursor: pointer;
+}

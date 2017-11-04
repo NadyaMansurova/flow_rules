@@ -1,0 +1,92 @@
+@import '../../styles/_variables.scss';
+
+body {
+  color: $font_color;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.flow__list {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.flow__li {
+  font-size: $fontH2;
+}
+
+.flow__h2 {
+  font-weight: normal;
+  font-size: $fontH2;
+  text-indent: $textIndeed;
+}
+
+.flow__block {
+  margin: $textIndeed/2 0 $textIndeed $textIndeed;
+}
+
+.panel {
+  border: 1px solid $border_color;
+  box-shadow: 1px 1px 30px 4px $border_color;
+}
+
+.panel-form {
+  padding: $textIndeed/2 $textIndeed/2;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.row__btn {
+  justify-content: flex-end;
+  margin: $textIndeed/2 4*$textIndeed $textIndeed/2 0;
+}
+
+.col-left {
+  flex: 20 1;
+  margin: $textIndeed/1.3 $textIndeed/2 $textIndeed/2 4*$textIndeed;
+}
+
+.col-right {
+  flex: 80 1;
+  margin: $textIndeed/2 4*$textIndeed $textIndeed/2 0;
+}
+
+.form-label {
+  font-size: $fontDefault;
+}
+
+.form-control {
+  font-size: $fontDefault;
+  padding: $textIndeed/2;
+  border: 1px solid $border_color;
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.form-textarea {
+  min-height: 80px;
+}
+
+.btn {
+  padding: $textIndeed/2;
+  background: #fff;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: $fontDefault;
+}
+
+.btn-disabled {
+  opacity: 0.5;
+}
+
+.hidden {
+  display: none;
+}
